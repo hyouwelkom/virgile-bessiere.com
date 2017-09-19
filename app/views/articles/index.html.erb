@@ -1,5 +1,5 @@
 <a href="<% new_article_path %>">Nouveau article</a>
-<%= @articles.each do |a| %>
+<% @articles.each do |a| %>
 
 <h1><%= a.title %></h1>
 <p><%= a.content %></p>

@@ -1,0 +1,5 @@
+{
+	"environment": "production",
+	"port": 80,
+	"daemonize": true,
+}

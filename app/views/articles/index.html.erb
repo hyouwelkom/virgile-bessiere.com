@@ -1,4 +1,4 @@
-<a href="<% new_article_path %>">Nouveau article</a>
+<%= link_to "Nouvel article", new_article_path %>
 <% @articles.each do |a| %>
 
 <h1><%= a.title %></h1>
